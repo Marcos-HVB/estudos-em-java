@@ -1,0 +1,58 @@
+Crie um projeto chamado segunda-lista-nivelamento, contendo uma classe para cada
+exercício descrito abaixo:
+1) Loteria
+Crie uma classe chamada Loteria que:
+• Solicite apenas uma vez número entre 0 e 10 para o usuário.
+• Tente adivinhar o número digitado através de números randômicos.
+• A cada iteração exiba o número sorteado.
+• Quando acontecer o “acerto” se a quantidade de vezes necessárias for:
+Até 3: exiba "Você é MUITO sortudo"
+Entre 4 e 10: exiba "Você é sortudo"
+Mais de 10: exiba "É melhor você parar de apostar e ir trabalhar"
+2) Acumulador
+Crie uma classe chamada Acumulador que:
+• Leia vários números até ler o número 0 e calcule a soma dos números lidos. (Não é para
+usar vetor).
+• Exiba: "A soma dos números é x"
+3) Login
+Crie uma classe chamada Login que simule a autenticação de um usuário em um sistema:
+• Use como parâmetro de validação o login “admin” e a senha “#SPtech2022”
+• Solicite o nome de usuário e senha.
+• Exiba: “Login e/ou senha inválidos” caso os valores digitados sejam diferentes e
+solicite novamente.
+• Caso o usuário digite os campos corretamente, exiba: “Login realizado com sucesso”
+4) Números Ímpares
+Crie uma classe chamada NumerosImpares que:
+• Usando “for”, exiba todos os números ímpares entre 0 e 90.
+5) Números Pares
+Crie uma classe chamada NumerosImpares que:
+• Exiba todos os números pares de 0 a 40 usando while
+6) Potência
+Crie uma classe chamada Potencia que:
+• Apresente como resultado o valor de uma potência de uma base qualquer elevada a um
+expoente qualquer, ou seja, de BE, em que B é o valor da base e E o valor do expoente.
+• Considere apenas a entrada de valores inteiros e positivos.
+• Por exemplo: B = 2 e E = 5.
+• O programa deverá calcular e exibir o valor de 2 elevado a 5 = 32. (Não é para usar
+métodos que calculam a potência diretamente).
+7) Sorteio
+Crie uma classe chamada Sorteio que:
+• Solicite um número de 1 a 100 apenas uma vez.
+• Realize 200 sorteios.
+Ao final, exibir:
+• Quando o número foi sorteado pela 1ª vez (apresente a posição do sorteio)
+• Quantos números pares foram sorteados.
+• Quantos números ímpares foram sorteados.
+8) Contador Variado
+Crie uma classe chamada ContadorVariado que:
+• Usando for, começe exibindo o valor 0.15 e depois 0.30, depois 0.45, depois 0.60... ou
+seja, aumente de 0.15 em 0.15 a cada iteração até que o último número seja menor que 5.
+• Use interpolação p/ exibir o número com 2 casas decimais
+9) Votação
+Foi feita uma pesquisa para saber qual o sabor de pizza favorito entre os alunos da Faculdade:
+• Para votar no sabor mussarela, deve-se digitar o valor 5.
+• Para votar no sabor calabresa, deve-se digitar o valor 25.
+• Para votar no sabor quatro queijos, deve- se digitar o valor 50.
+Leia os votos de 10 alunos diferentes (sem usar vetor) e exiba:
+• Quantos votos obteve cada sabor.
+• Qual o sabor favorito segundo a pesquisa.
