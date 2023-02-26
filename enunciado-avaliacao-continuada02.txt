@@ -1,0 +1,44 @@
+Crie um projeto java chamado atividade02-ac01
+1) Classe CalculoAluno
+• Escreva um método chamado calcularMedia, que recebe duas notas e retorna a
+média das notas, como é calculada a média da Faculdade SPTech((nota1 * 0.4) + (nota2
+* 0.6)).
+• Crie uma classe TesteCalculoAluno, no método main, solicite que o usuário digite 2
+notas, chame o método calcularMedia passando as notas digitadas como argumento e
+exiba o valor retornado pelo método.
+2) Classe Idade
+Escreva o método classificaIdade (não retorna nada) que recebe uma idade e imprime uma
+mensagem conforme a faixa etária à qual pertence a idade conforme regra abaixo:
+• 0 a 2 anos - “Bebê”
+• 3 a 11 anos -“Criança”
+• 12 a 19 anos -“Adolescente”
+• 20 a 30 anos - “Jovem”
+• 31 a 60 anos -“Adulto”
+• acima de 60 anos -“Idoso”.
+Crie uma classe TesteIdade, escreva o método main e solicite que o usuário digite a sua idade,
+testes os métodos da classe Idade
+3) Classe DescontoProgressivo
+Um supermercado criou promoção onde comprando 1 produto o desconto será de 10%, 2
+produtos 20% e 3 ou mais produtos 30%.
+Para implementar o cálculo da promoção no sistema de caixa, crie uma classe que:
+• Contenha um método chamado calcularDesconto, que recebe o valor e quantidade, e
+retorna o valor final com desconto.
+• Contenha um método chamado exibirNotaFiscal, que possui a seguinte saída:
+• Em uma classe de teste chamada TesteDescontoProgressivo, solicite o valor unitário de
+um determinado produto e a quantidade.
+4) Classe CalculoNutricao
+• Escreva o método calculaIMC, que recebe o peso e a altura de uma pessoa.
+• Este método deverá calcular e exibir o IMC usando interpolação
+• Escreva também uma classe de teste chamada TesteCalculoNutricao que solicita que o
+usuário digite os valores correspondentes a pessoas diferentes e chame o método
+calcularIMC de cada uma delas.
+A fórmula para calcular o IMC é:
+• IMC = Peso ÷ (Altura × Altura)
+5) Classe ValidacaoNumerica
+• Escreva um método chamado verificarPrimo, que recebe um número inteiro e exibe se
+esse número é ou não primo (Dica: para saber se o número é primo, veja quantos
+divisores o número tem, ou seja, verifique se ele é divisível por 1, por 2, por 3, etc. até ele
+próprio, e conte quantos divisores são. Se o número de divisores for 2, então ele é primo.)
+• Em uma classe de teste chamada TesteValidacaoNumerica, solicite que o usuário digite
+vários valores positivos e chame o método verificaPrimo para exibir se o número lido é
+primo ou não. O programa deve encerrar quando o usuário digitar um valor negativo. 

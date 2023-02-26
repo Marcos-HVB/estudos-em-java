@@ -1,0 +1,25 @@
+Crie um projeto chamado terceira-lista-nivelamento, contendo uma classe para cada exercício
+descrito abaixo:
+1) Classe ClasseSocial
+Você foi contratado(a) para criar um software para ajudar o IBGE (Instituto Brasileiro de
+Geografia e Estatística) a identificar qual a classe social que um determinado entrevistado
+pertence através da sua renda mensal.
+Para exibir corretamente a classe social do indivíduo, utilize a tabela abaixo como referência:
+Classe N° de salários-mínimos Renda Familiar
+A Acima de 20 SM R$ 20.900,01 ou mais
+B De 10 a 20 SM R$ 10.450,01 a R$ 20.900,00
+C De 4 a 10 SM R$ 4.180,01 a R$ 10.450,00
+D De 2 a 4 SM R$ 2.090,01 a R$ 4.180,00
+E Até 2 SM Até R$ 2.090,00
+
+• Crie um método que calcule e devolva a quantidade de salários-mínimos a pessoa ganha
+aproximadamente.
+• Crie outro método que identifique e devolva qual classe a pessoa pertence.
+• Exiba as informações ao final da execução, exemplo:
+Digite sua renda:
+8500
+Você recebe aproximadamente 8,1 salários-mínimos.
+Você pertence a classe social: C.
+• Crie uma classe chamada TesteClasseSocial que solicite a renda para o usuário e teste
+os métodos
+Obs* considere o valor do salário-mínimo: R$1.045
