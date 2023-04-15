@@ -1,0 +1,18 @@
+2023-04-13 20:31:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE FILME (ID INT PRIMARY KEY AUTO_INCREMNTE[*],NOME VARCHAR(45),ANO_LANCAMENTO INT) "; expected "HASH, AUTO_INCREMENT, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table filme (id int primary key auto_incremnte,nome varchar(45),ano_lancamento int) [42001-199]
+2023-04-13 20:33:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE FILME (ID INT PRIMARY KEY AUTO_INCREMNTE[*],NOME VARCHAR(45),ANO_LANCAMENTO INT) "; expected "HASH, AUTO_INCREMENT, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table filme (id int primary key auto_incremnte,nome varchar(45),ano_lancamento int) [42001-199]
+2023-04-13 20:34:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF EXISTIS[*] FILME (ID INT PRIMARY KEY AUTO_INCREMNTE,NOME VARCHAR(45),ANO_LANCAMENTO INT) "; expected "NOT"; SQL statement:
+create table if existis filme (id int primary key auto_incremnte,nome varchar(45),ano_lancamento int) [42001-199]
+2023-04-13 20:35:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTIS[*] FILME (ID INT PRIMARY KEY AUTO_INCREMNTE,NOME VARCHAR(45),ANO_LANCAMENTO INT) "; expected "EXISTS"; SQL statement:
+create table if not existis filme (id int primary key auto_incremnte,nome varchar(45),ano_lancamento int) [42001-199]
+2023-04-13 20:35:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS FILME (ID INT PRIMARY KEY AUTO_INCREMNTE[*],NOME VARCHAR(45),ANO_LANCAMENTO INT) "; expected "HASH, AUTO_INCREMENT, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table if not exists filme (id int primary key auto_incremnte,nome varchar(45),ano_lancamento int) [42001-199]
+2023-04-13 20:36:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS FILME (ID INT PRIMARY KEY AUTO_INCREMNTE[*],NOME VARCHAR(45),ANO_LANCAMENTO INT) "; expected "HASH, AUTO_INCREMENT, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table if not exists filme (id int primary key auto_incremnte,nome varchar(45),ano_lancamento int) [42001-199]
